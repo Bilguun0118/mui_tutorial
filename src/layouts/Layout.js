@@ -1,6 +1,6 @@
 import { Box, Drawer } from "@mui/material";
 import { createContext, useState } from "react";
-import { Outlet } from "react-router-dom";
+// import { Outlet } from "react-router-dom";
 import { NavBar } from "../components/NavBar";
 import { SideBar } from "../components/Sidebar";
 export const UserContext = createContext();

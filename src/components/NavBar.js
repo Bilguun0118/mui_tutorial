@@ -7,7 +7,7 @@ import {
     Typography,
   } from "@mui/material";
   import { styled } from "@mui/material/styles";
-  import MenuIcon from "@mui/icons-material/Menu";
+  // import MenuIcon from "@mui/icons-material/Menu";
   import { useContext } from "react";
   import { UserContext } from "../layouts/Layout";
   import { ColorModeContext } from "../theme";
@@ -31,7 +31,7 @@ import {
                   handleOpen();
                 }}
               >
-                <MenuIcon />
+                {/* <MenuIcon /> */}
               </IconButton>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                 HAHAHAHAHAHA
