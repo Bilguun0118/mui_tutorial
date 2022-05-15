@@ -31,10 +31,10 @@ import {
                   handleOpen();
                 }}
               >
-                {/* <MenuIcon /> */}
+                <MenuIcon />
               </IconButton>
               <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                HAHAHAHAHAHA
+                Lark Small
               </Typography>
   
               <MaterialUISwitch

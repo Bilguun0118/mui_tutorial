@@ -1,8 +1,8 @@
 import { Box, List, ListItem, ListItemText } from "@mui/material";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export function SideBar({ handleOpen }) {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <Box
       role="presentation"
@@ -16,7 +16,7 @@ export function SideBar({ handleOpen }) {
             button
             key={index}
             onClick={() => {
-              // navigate(path);
+              navigate(path);
             }}
           >
             <ListItemText primary={name} />
